@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B27D58060EB02E7FD651944B /* Pods_RideShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E3A2E5FC9B82B8A352C192 /* Pods_RideShare.framework */; };
 		C587BCD41D13A26D00959137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C587BCD31D13A26D00959137 /* AppDelegate.swift */; };
 		C587BCD61D13A26D00959137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C587BCD51D13A26D00959137 /* ViewController.swift */; };
 		C587BCD91D13A26D00959137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C587BCD71D13A26D00959137 /* Main.storyboard */; };
 		C587BCDB1D13A26D00959137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C587BCDA1D13A26D00959137 /* Assets.xcassets */; };
 		C587BCDE1D13A26D00959137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C587BCDC1D13A26D00959137 /* LaunchScreen.storyboard */; };
+		C587BCE61D13B4D100959137 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C587BCE51D13B4D100959137 /* GoogleService-Info.plist */; };
+		E128908E9A446D3995DD5786 /* Pods_RideShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D32E5209D84608EBD16468C /* Pods_RideShare.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84A793260610DEBD59407B21 /* Pods-RideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.debug.xcconfig"; sourceTree = "<group>"; };
-		87E3A2E5FC9B82B8A352C192 /* Pods_RideShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D32E5209D84608EBD16468C /* Pods_RideShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA2F557E3ADCEC7850338B0 /* Pods-RideShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.release.xcconfig"; sourceTree = "<group>"; };
 		C587BCD01D13A26C00959137 /* RideShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C587BCD31D13A26D00959137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C587BCD51D13A26D00959137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,8 @@
 		C587BCDA1D13A26D00959137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C587BCDD1D13A26D00959137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C587BCDF1D13A26D00959137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8A738DDD95AB2786461A985 /* Pods-RideShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.release.xcconfig"; sourceTree = "<group>"; };
+		C587BCE51D13B4D100959137 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA17A87666DDCE588CF986C0 /* Pods-RideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,28 +35,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B27D58060EB02E7FD651944B /* Pods_RideShare.framework in Frameworks */,
+				E128908E9A446D3995DD5786 /* Pods_RideShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03CFC9E7E2C007FAE34A00E4 /* Pods */ = {
+		9A96D3727B49D3A4677F5BD4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				84A793260610DEBD59407B21 /* Pods-RideShare.debug.xcconfig */,
-				F8A738DDD95AB2786461A985 /* Pods-RideShare.release.xcconfig */,
+				EA17A87666DDCE588CF986C0 /* Pods-RideShare.debug.xcconfig */,
+				9EA2F557E3ADCEC7850338B0 /* Pods-RideShare.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		133CFE2C2E0062F7DA9FC43A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				87E3A2E5FC9B82B8A352C192 /* Pods_RideShare.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C587BCC71D13A26C00959137 = {
@@ -62,8 +56,8 @@
 			children = (
 				C587BCD21D13A26D00959137 /* RideShare */,
 				C587BCD11D13A26C00959137 /* Products */,
-				03CFC9E7E2C007FAE34A00E4 /* Pods */,
-				133CFE2C2E0062F7DA9FC43A /* Frameworks */,
+				9A96D3727B49D3A4677F5BD4 /* Pods */,
+				F808B03810B660FABDE34E97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,8 +78,17 @@
 				C587BCDA1D13A26D00959137 /* Assets.xcassets */,
 				C587BCDC1D13A26D00959137 /* LaunchScreen.storyboard */,
 				C587BCDF1D13A26D00959137 /* Info.plist */,
+				C587BCE51D13B4D100959137 /* GoogleService-Info.plist */,
 			);
 			path = RideShare;
+			sourceTree = "<group>";
+		};
+		F808B03810B660FABDE34E97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D32E5209D84608EBD16468C /* Pods_RideShare.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C587BCDE1D13A26D00959137 /* LaunchScreen.storyboard in Resources */,
+				C587BCE61D13B4D100959137 /* GoogleService-Info.plist in Resources */,
 				C587BCDB1D13A26D00959137 /* Assets.xcassets in Resources */,
 				C587BCD91D13A26D00959137 /* Main.storyboard in Resources */,
 			);
@@ -324,7 +328,7 @@
 		};
 		C587BCE31D13A26D00959137 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84A793260610DEBD59407B21 /* Pods-RideShare.debug.xcconfig */;
+			baseConfigurationReference = EA17A87666DDCE588CF986C0 /* Pods-RideShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RideShare/Info.plist;
@@ -337,7 +341,7 @@
 		};
 		C587BCE41D13A26D00959137 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8A738DDD95AB2786461A985 /* Pods-RideShare.release.xcconfig */;
+			baseConfigurationReference = 9EA2F557E3ADCEC7850338B0 /* Pods-RideShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RideShare/Info.plist;
