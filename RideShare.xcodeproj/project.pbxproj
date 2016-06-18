@@ -14,6 +14,7 @@
 		C587BCDB1D13A26D00959137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C587BCDA1D13A26D00959137 /* Assets.xcassets */; };
 		C587BCDE1D13A26D00959137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C587BCDC1D13A26D00959137 /* LaunchScreen.storyboard */; };
 		C587BCE61D13B4D100959137 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C587BCE51D13B4D100959137 /* GoogleService-Info.plist */; };
+		C5D56F591D1500F100BD8042 /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = C5D56F581D1500F100BD8042 /* video.mov */; };
 		E128908E9A446D3995DD5786 /* Pods_RideShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D32E5209D84608EBD16468C /* Pods_RideShare.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		C587BCDD1D13A26D00959137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C587BCDF1D13A26D00959137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C587BCE51D13B4D100959137 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5D56F581D1500F100BD8042 /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.mov; sourceTree = "<group>"; };
 		EA17A87666DDCE588CF986C0 /* Pods-RideShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RideShare/Pods-RideShare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 		C57592401D13C8BC00047427 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5D56F581D1500F100BD8042 /* video.mov */,
 				C587BCDC1D13A26D00959137 /* LaunchScreen.storyboard */,
 				C587BCDF1D13A26D00959137 /* Info.plist */,
 				C587BCE51D13B4D100959137 /* GoogleService-Info.plist */,
@@ -166,6 +169,7 @@
 				C587BCDE1D13A26D00959137 /* LaunchScreen.storyboard in Resources */,
 				C587BCE61D13B4D100959137 /* GoogleService-Info.plist in Resources */,
 				C587BCDB1D13A26D00959137 /* Assets.xcassets in Resources */,
+				C5D56F591D1500F100BD8042 /* video.mov in Resources */,
 				C587BCD91D13A26D00959137 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
